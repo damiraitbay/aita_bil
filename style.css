@@ -8,7 +8,6 @@
     --accent-english: #3b82f6;
     --accent-chinese: #ef4444;
     --accent-turkish: #06b6d4;
-    --accent-korean: #0047a0;
     --light-color: #f8f9fa;
     --dark-color: #1f2937;
     --gray-color: #6b7280;
@@ -464,15 +463,6 @@ section {
     background: var(--accent-turkish);
 }
 
-.korean-card {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.85)), url('https://flagcdn.com/w320/kr.png');
-    background-size: cover, cover;
-    background-position: center, center;
-}
-
-.korean-card::before {
-    background: var(--accent-korean);
-}
 
 .course-card:hover {
     transform: translateY(-10px);
@@ -498,11 +488,6 @@ section {
     background-position: center, center;
 }
 
-.korean-card:hover {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.8)), url('https://flagcdn.com/w320/kr.png');
-    background-size: cover, cover;
-    background-position: center, center;
-}
 
 .course-header {
     display: flex;
@@ -537,10 +522,6 @@ section {
     box-shadow: 0 4px 15px rgba(6, 182, 212, 0.25);
 }
 
-.korean-card .course-icon {
-    background: linear-gradient(135deg, var(--accent-korean), #0052cc);
-    box-shadow: 0 4px 15px rgba(0, 71, 160, 0.25);
-}
 
 .flag-icon {
     font-size: 32px;
@@ -742,9 +723,6 @@ section {
     background: linear-gradient(135deg, var(--accent-turkish), #0891b2);
 }
 
-.korean-teacher {
-    background: linear-gradient(135deg, var(--accent-korean), #0052cc);
-}
 
 .teacher-flag {
     position: absolute;
